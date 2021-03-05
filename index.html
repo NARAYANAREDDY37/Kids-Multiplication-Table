@@ -26,7 +26,73 @@
     </nav>
 
     <!------------------ Start Here  ------------------>
-    
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+              <h1 class="font-weight-bold">Kids Multiplication Table</h1>
+            </div>
+            <div class="card-body bg-light">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <form>
+                    <div class="form-group">
+                      <input id="req-number" type="number" class="form-control" placeholder="enter number">
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <label for="multiplier">Select the Multiplier</label>
+                    <input id="multiplier" type="range" class="form-control" min="1" max="10" step="1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- results section -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <h1 class="display-2">
+                    <span id=number class="badge badge-primary">1</span>
+                  </h1>
+                </div>
+                <div class="col-md-2">
+                  <h1>
+                    <i class="fa fa-times fa-2x text-primary"></i>
+                  </h1>
+                </div>
+                <div class="col-md-2">
+                  <h1 class="display-2">
+                    <span id="multiple" class="badge badge-primary">1</span>
+                  </h1>
+                </div>
+                <div class="col-md-2">
+                  <h1>
+                    <i class="fa fa-equals fa-2x text-primary"></i>
+                  </h1>
+                </div>
+                <div class="col-md-2">
+                  <h1 class="display-2">
+                    <span id="result" class="badge badge-primary">1</span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     
     
